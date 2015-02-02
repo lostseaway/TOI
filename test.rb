@@ -1,0 +1,1 @@
+gets.to_i.times{puts gets.chomp.split(" ").map{|x| x.to_i}.inject(:+).to_s}
